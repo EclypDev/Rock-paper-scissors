@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif, bold;
+    background: url('https://fondosmil.com/fondo/98906.png');
+    background-size: cover;
+}   
+#container {
+    
+    background-color: #BCE6FD;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#rock:hover {
+    scale: 0.95;
+}
+#rock:active {
+    scale: 0.8;
+}
+#rock {
+    background-color: #FFC107;
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 0px 0px 3px #000;
+    font-size: 5em;
+    border: none;
+
+    cursor: pointer;
+}
+#papper:hover {
+    scale: 0.95;
+}
+#papper:active {
+    scale: 0.8;
+}
+#papper {
+    background-color: #FFC107; 
+    border-radius: 20px;
+    margin-left: 50px;
+    border: 5px solid black;
+    box-shadow: 0px 0px 3px #000;
+    font-size: 5em;
+    border: none;
+    cursor: pointer;
+}
+#scissors:hover {
+    scale: 0.95;
+}
+#scissors:active {
+    scale: 0.8;
+}
+#scissors {
+    background-color: #FFC107; 
+    margin-left: 50px;
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 0px 0px 3px #000;
+    font-size: 5em;
+    border: none;
+    cursor: pointer;
+}
+#title {
+    font-size: 4em;
+}
+#selection {
+    margin-left: 70px;
+}
+#resultado-container {
+    position: absolute;
+    top: 270px;
+    background: #FFC107;
+    height: 350px;
+    width: 95%;
+    font-size: 3em;
+    left: 35px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  #resultado-container button {
+    position: absolute;
+    width: 350px;
+    height: 70px;
+    top: 250px;
+    left: 470px;
+    background: #FFC107;
+    border-radius: 20px;
+    color: white;
+  }
+  #restart-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #restart-button:hover {
+    background-color: #333;
+  }
